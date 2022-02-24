@@ -1,0 +1,343 @@
+.dashboard-widget.sells-graph, .dashboard-widget.big-counter, .dashboard-widget.orders {
+	display: none;
+}
+
+.dokan-store-tabs {
+	display: none;
+}
+
+.clear {
+	clear: both;
+	float: none;
+}
+
+.dokan-single-store-description {
+	padding: 20px 0;
+}
+
+.dokan-store-widget-opening-hours-container {
+	font-size: 12px;
+}
+
+.dokan-store-widget-opening-hours-current-open,
+.dokan-store-widget-opening-hours-current-closed {
+	display: none;
+}
+
+.dokan-store-widget-opening-hours-current-open-circle, .dokan-store-widget-opening-hours-current-closed-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.dokan-store-widget-opening-hours-current-open-circle:before,
+.dokan-store-widget-opening-hours-current-closed-circle:before {
+  content: '';
+  position: relative;
+  display: block;
+  width: 200%;
+  height: 200%;
+  box-sizing: border-box;
+  margin-left: -50%;
+  margin-top: -50%;
+  border-radius: 45px;
+  background-color: #01a4e9;
+  -webkit-animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+          animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.dokan-store-widget-opening-hours-current-open-circle:before {
+	background-color: #8BC34A;
+}
+
+.dokan-store-widget-opening-hours-current-closed-circle:before {
+	background-color: #FF5722;
+}
+
+.dokan-store-widget-opening-hours-current-open-circle:after,
+.dokan-store-widget-opening-hours-current-closed-circle:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+          animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+}
+
+.dokan-store-widget-opening-hours-current-open-circle,
+.dokan-store-widget-opening-hours-current-open-circle:after {
+	background-color: #4CAF50;
+}
+
+.dokan-store-widget-opening-hours-current-closed-circle,
+.dokan-store-widget-opening-hours-current-closed-circle:after {
+	background-color: #F44336;
+}
+
+.dokan-store-widget-opening-hours-current-open-container {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.dokan-store-widget-opening-hours-current-closed-title,
+.dokan-store-widget-opening-hours-current-open-title {
+    position: relative;
+    top: -10px;
+}
+
+.dokan-store-widget-opening-hours-item-title {
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+.dokan-store-widget-opening-hours-container {
+	font-size: 12px;
+}
+
+.dokan-store-widget-opening-hours-current-open,
+.dokan-store-widget-opening-hours-current-closed {
+	display: none;
+}
+
+.dokan-store-widget-opening-hours-current-open-circle, .dokan-store-widget-opening-hours-current-closed-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.dokan-store-widget-opening-hours-current-open-circle:before,
+.dokan-store-widget-opening-hours-current-closed-circle:before {
+  content: '';
+  position: relative;
+  display: block;
+  width: 200%;
+  height: 200%;
+  box-sizing: border-box;
+  margin-left: -50%;
+  margin-top: -50%;
+  border-radius: 45px;
+  background-color: #01a4e9;
+  -webkit-animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+          animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.dokan-store-widget-opening-hours-current-open-circle:before {
+	background-color: #8BC34A;
+}
+
+.dokan-store-widget-opening-hours-current-closed-circle:before {
+	background-color: #FF5722;
+}
+
+.dokan-store-widget-opening-hours-current-open-circle:after,
+.dokan-store-widget-opening-hours-current-closed-circle:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+          animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+}
+
+.dokan-store-widget-opening-hours-current-open-circle,
+.dokan-store-widget-opening-hours-current-open-circle:after {
+	background-color: #4CAF50;
+}
+
+.dokan-store-widget-opening-hours-current-closed-circle,
+.dokan-store-widget-opening-hours-current-closed-circle:after {
+	background-color: #F44336;
+}
+
+.dokan-store-widget-opening-hours-current-closed-title,
+.dokan-store-widget-opening-hours-current-open-title {
+    position: relative;
+    top: -10px;
+}
+
+/**
+ *  Listing Cirlce
+ */
+.dokan-store-opening-hours-container {
+	font-size: 12px;
+}
+
+.dokan-store-opening-hours-current-open,
+.dokan-store-opening-hours-current-closed {
+	display: none;
+}
+
+.dokan-store-opening-hours-current-open-circle, .dokan-store-opening-hours-current-closed-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.dokan-store-opening-hours-current-open-circle:before,
+.dokan-store-opening-hours-current-closed-circle:before {
+  content: '';
+  position: relative;
+  display: block;
+  width: 200%;
+  height: 200%;
+  box-sizing: border-box;
+  margin-left: -50%;
+  margin-top: -50%;
+  border-radius: 45px;
+  background-color: #01a4e9;
+  -webkit-animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+          animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.dokan-store-opening-hours-current-open-circle:before {
+	background-color: #8BC34A;
+}
+
+.dokan-store-opening-hours-current-closed-circle:before {
+	background-color: #FF5722;
+}
+
+.dokan-store-opening-hours-current-open-circle:after,
+.dokan-store-opening-hours-current-closed-circle:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+          animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+}
+
+.dokan-store-opening-hours-current-open-circle,
+.dokan-store-opening-hours-current-open-circle:after {
+	background-color: #4CAF50;
+}
+
+.dokan-store-opening-hours-current-closed-circle,
+.dokan-store-opening-hours-current-closed-circle:after {
+	background-color: #F44336;
+}
+
+.dokan-store-opening-hours-current-open-container {
+    /* float: right; */
+    font-size: 12px;
+    color: #fff;
+    /* width: 50%; */
+    position: absolute;
+    right: 0;
+    width: 120px;
+
+}
+
+.dokan-store-opening-hours-current-closed-title,
+.dokan-store-opening-hours-current-open-title {
+    position: relative;
+    top: -11px;
+    left: -5px;
+}
+
+.dokan-store-opening-hours-item-title {
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+.dokan-store-opening-hours-container {
+	font-size: 12px;
+}
+
+/**
+ *  Pulsating Circle
+ */
+.pulsating-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  width: 30px;
+  height: 30px;
+}
+
+.store-open-close-time, .store-open-close {
+  display: none !important;
+}
+
+@-webkit-keyframes pulse-ring {
+  0% {
+    -webkit-transform: scale(0.33);
+            transform: scale(0.33);
+  }
+  80%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    -webkit-transform: scale(0.33);
+            transform: scale(0.33);
+  }
+  80%, 100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes pulse-dot {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+@keyframes pulse-dot {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
